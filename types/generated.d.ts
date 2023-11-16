@@ -63560,7 +63560,7 @@ declare namespace player_manager {
      * @param [matchBodySkin = false] - If set to `true`, the skin of the hands will be set to the skin of the playermodel. 
      *  This is useful when player models have multiple user-selectable skins.
      */
-    function AddValidHands(name: string, model: string, skin = 0, bodygroups = 0000000, matchBodySkin = false): void;
+    function AddValidHands(name: string, model: string, skin = 0, bodygroups = 0o0, matchBodySkin = false): void;
     
     /**
      * [Shared]
